@@ -1,0 +1,33 @@
+Script started on Wed 13 Apr 2022 02:20:43 PM EDT
+==135438== Memcheck, a memory error detector
+==135438== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==135438== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==135438== Command: ws
+==135438== 
+Tesla Cars:
+GVBT01 Tesla Model S
+GVAB24 Tesla Cyber Truck
+GVDD99 Tesla Model 3
+Classmates:
+22345, Lisa Simpson, EAC150
+12345, Bart Simpson, EAC150
+33223, Magie Simpson, EAC150
+Colleagues:
+213456, Carl Carlson, 1000
+435678, Lenny Leonard, 1000
+364567, Homer Simpson, 1000
+Fours:
+4
+4
+4
+4
+==135438== 
+==135438== HEAP SUMMARY:
+==135438==     in use at exit: 0 bytes in 0 blocks
+==135438==   total heap usage: 5 allocs, 5 frees, 73,416 bytes allocated
+==135438== 
+==135438== All heap blocks were freed -- no leaks are possible
+==135438== 
+==135438== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Wed 13 Apr 2022 02:20:44 PM EDT

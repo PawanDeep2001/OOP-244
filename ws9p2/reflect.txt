@@ -1,0 +1,17 @@
+/*
+    I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+    Name   :Pawan Deep
+    ID     :111144218
+    Email  :pdeep1@myseneca.ca
+    Date   :04/03/2022
+*/
+In the workshop 9 and milestone 4 were not very similar, in workshop 9 i had to first of all
+to read a file and modify its content to create an html file, first of all I had to read the 
+file character by character, then add in the end a '\0' in order not to have any garbage values
+when i read the file and save it into my pointer. An error I encountered, that took a long 
+time to fix it was that on matrix it was printing till the '\0' and I had to udjust my code
+in order to not print anything when the return value of the operator[] was '\0', that '\0'
+was printing everything on matrix but wasn't saving the last 2 lines into it because when 
+the '\0' was read everything was stopping. milestone 4 on the other side wasn't that difficult
+just by using previous knowledge we were able to make it. I didn't encounter any difficulty 
+while doing this milestone.

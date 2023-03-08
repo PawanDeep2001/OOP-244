@@ -1,0 +1,18 @@
+/*
+    I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+    Name   :Pawan Deep
+    ID     :111144218
+    Email  :pdeep1@myseneca.ca
+    Date   :03/19/2022
+*/
+workshop 7 and milestone 2 had pretty much similar topics.
+workshop 7 it was mostly about our previous knowledge and the inherit topic and derived classes, that made us use the base class 
+member functions, how to use the constructor of the base class. the constructor was pretty easy we had to first of all include
+in the header file the header file of the constructor module, then we had to add in the class :public Constructor, to access 
+all the public members of the Constructor class in the Pack class, then the Pack constructor also had to initialize the variables 
+related to the Container, i just added to the function definition :Container(content, size * unitsize, unitsize * number) with 
+the calculations required as arguments of the Container constructor. 
+After that we had call += operator of Container in the += operator of Pack and same thing in the -= operator, it was pretty much
+the same as the contructor, only thing here the return value was saved into an int variable, the rest of the logic was just 
+about previous knowledge. This workshop was a bit easier because there was no chance of memory leak because no variable was 
+dinamically allocated. 

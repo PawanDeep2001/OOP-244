@@ -1,0 +1,14 @@
+In line number 56 of your output:
+The output should be:
+Wine: (3750cc/9000), 5 in a pack of 12
+                                     ^
+But your output is: 
+Wine: (3750cc/9000), 5 in a pack of 10
+                                     ^
+
+Unmatched character details:
+The character in column 38 is supposed to be:
+  [2] ASCII code(50)
+but you printed
+  [0] ASCII code(48)
+

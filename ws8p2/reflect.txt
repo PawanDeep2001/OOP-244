@@ -1,0 +1,18 @@
+/*
+    I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+    Name   :Pawan Deep
+    ID     :111144218
+    Email  :pdeep1@myseneca.ca
+    Date   :03/26/2022
+*/
+workshop 8 and milestone 3 were about the virtual functions mainly, in those workshops, first
+of all I had to create all the virtual functions, to create a function I had to add in front 
+of the function definition the word virtual and in the after the function definition, if it
+is a pure virtual function =0, otherwise just give an empty body to that function, for 
+example in our case in the workshop I had to add to the destructor an empty body and fof the
+other functions just =0; The base module normally just has the << and >> operators overload,
+as gloabal functions, and it just calls the class function to display or read whatever the
+user enters in the console or whatever we need to display into console.
+A difficulty that I had in these workshops was mainly the way to read the user input, or the 
+format with whom I had to display the data. The rest was pretty much similar to the previous
+workshops.

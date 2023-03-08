@@ -1,0 +1,17 @@
+/*
+    I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+    Name   :Pawan Deep
+    ID     :111144218
+    Email  :pdeep1@myseneca.ca
+    Date   :04/15/2022
+*/
+Workshop 10 was pretty easy, most of the modules were given and we just needed to create
+a couple of functions, the others were pretty much the same as the previous ones, the only
+the difference was the object we had to use, the only thing I took a little bit of time to 
+understand was that we need to implement everything in the header file without the c++ file.
+The select functions were pretty easy just a loop to check if the to go through all the 
+elements of the array and then compare them with the element in the argument. The print
+function on the other side just had to print the title given as an argument, and then in a loop 
+through all the elements of the collection till \n. I didn't face many difficulties, but it was
+a different type of topic, and I took a long time to understand the meaning of this template 
+topic.
