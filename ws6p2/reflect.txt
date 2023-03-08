@@ -1,0 +1,17 @@
+/*
+    I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+    Name   :Pawan Deep
+    ID     :111144218
+    Email  :pdeep1@myseneca.ca
+    Date   :03/06/2022
+*/
+this workshop was quite difficult, first of all the istream and ostream libraries were not that easy to utilize, because first
+of all they are global functions, then we had to read a formatted line, as user input in a certain way and if read from a file 
+in a different way, that took some time to get it done, and the print wasn't that difficult. In the workshop part 2 I encountered 
+many difficulties, because the instructions were not correct in some points, and sometimes they even misguided me.
+The read function of the second part was kind of tricky because it had the possibility of being even 4 words that made the whole 
+thing much more difficult.
+The first thing was reading part by part till reaching the third word and then if the word had a space after it, we had to make all
+the members as invalid. on the other side if there was a new line then we had to save the words that we had.
+An other difficulty that i got was the operator += that we had to check many things and if the number of names was greater than 3
+than we had to print bad name otherwise we had to add that name accordingly to which names we already have.

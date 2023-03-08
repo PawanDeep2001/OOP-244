@@ -1,0 +1,52 @@
+Script started on Thu 17 Feb 2022 03:28:41 PM EST
+==157715== Memcheck, a memory error detector
+==157715== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==157715== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==157715== Command: ws
+==157715== 
++----------------------------------------------------------------+
+ Portfolio  |  EMPTY  |            | Value:          0 |  Type: E
+ Portfolio  |  Active |     Fitzer | Value:     400000 |  Type: G
+ Portfolio  |  Active |      Honda | Value:     500000 |  Type: I
+ Portfolio  |  Active |        RIM | Value:     140000 |  Type: V
+ Portfolio  |  EMPTY  |            | Value:          0 |  Type: E
+ Portfolio  |  Active |      Nvdia | Value:      95000 |  Type: G
++----------------------------------------------------------------+
+ Total Investment in Honda and Nvdia is:  595000
+ Total Investment in Fitzer and RIM is:  540000
++----------------------------------------------------------------+
+ Total Investment in Fitzer and Nvdia is:  495000
++----------------------------------------------------------------+
+ Portfolio  |  EMPTY  |            | Value:          0 |  Type: E
+ Portfolio  |  Active |     Fitzer | Value:     495000 |  Type: G
+ Portfolio  |  EMPTY  |            | Value:          0 |  Type: E
+ Portfolio  |  Active |        RIM | Value:     640000 |  Type: V
+ Portfolio  |  EMPTY  |            | Value:          0 |  Type: E
+ Portfolio  |  EMPTY  |            | Value:          0 |  Type: E
++----------------------------------------------------------------+
++----------------------------------------------------------------+
+ Portfolio  |  EMPTY  |            | Value:          0 |  Type: E
+ Portfolio  |  Active |     Fitzer | Value:     495000 |  Type: G
+ Portfolio  |  EMPTY  |            | Value:          0 |  Type: E
+ Portfolio  |  Active |        RIM | Value:     640000 |  Type: V
+ Portfolio  |  EMPTY  |            | Value:          0 |  Type: E
+ Portfolio  |  EMPTY  |            | Value:          0 |  Type: E
++----------------------------------------------------------------+
++----------------------------------------------------------------+
+ Portfolio  |  EMPTY  |            | Value:          0 |  Type: E
+ Portfolio  |  Active |     Fitzer | Value:     400000 |  Type: G
+ Portfolio  |  EMPTY  |            | Value:          0 |  Type: E
+ Portfolio  |  Active |        RIM | Value:     700000 |  Type: V
+ Portfolio  |  EMPTY  |            | Value:          0 |  Type: E
+ Portfolio  |  EMPTY  |            | Value:          0 |  Type: E
++----------------------------------------------------------------+
+==157715== 
+==157715== HEAP SUMMARY:
+==157715==     in use at exit: 0 bytes in 0 blocks
+==157715==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==157715== 
+==157715== All heap blocks were freed -- no leaks are possible
+==157715== 
+==157715== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Thu 17 Feb 2022 03:28:41 PM EST

@@ -1,0 +1,14 @@
+In line number 22 of your output:
+The output should be:
+>Person Name,1231231234-XL,AF1234567
+            ^
+But your output is: 
+>Person Name 1231231234-XL,AF1234567
+            ^
+
+Unmatched character details:
+The character in column 13 is supposed to be:
+  [,] ASCII code(44)
+but you printed
+  [Space] ASCII code(32)
+

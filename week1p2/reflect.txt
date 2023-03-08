@@ -1,0 +1,17 @@
+/*
+    I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+    Name   :Pawan Deep
+    ID     :111144218
+    Email  :pdeep1@myseneca.ca
+    Date   :01/22/2022
+*/
+
+This workshop was essentially based on IPC144 and we had to open a text file, then check if the file exists, if it doesn't we need to prompt an error msg with file not found and quit
+the program read it, and save it's content into some variables, in my case I saved them in a structure. Then I prompted user to enter the partial name and then compare that name with
+each name record, and if a match is found we need to print the name with the area prefix and number, if no match is found nothing will be printed and if the user wants to exit he has 
+to enter the "!". 
+I created a main file with some implementation files with their corrispective header files. The implementation files contains mainly the function definition, and the 
+header file contains the function prototypes and the structures.
+The string functions with some additional functions were already given by the professor, an issue I encountered while doing this workshop was that I took time to understand the new C++
+terminology, for example cout, cin and endl. The I also learned about the namespace, what is their usage, essentially the namespace std is the standard namespace that has lots of 
+members, for example cout, and if we need to type cout without using namespace std, we need to write std::cout.

@@ -1,0 +1,20 @@
+/*
+    I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+    Name   :Pawan Deep
+    ID     :111144218
+    Email  :pdeep1@myseneca.ca
+    Date   :02/17/2022
+*/
+Workshop 5 was about the helper functions, the member operators, and the friedship.
+In the workshop many functions were provided like the display function, the setempty, and the
+constructors were also given along side with the destructor. We had to mainly overload
+the operators like +=, -=, >>, << and many more. Then we used the bool operator, that was 
+used to see if the type of portfolio was a correct one or not, so it returned true if it 
+was correct and false if it wasn't. Then we have the int, char, char* and double operator
+that just returns the class members of that type.
+In this workshop I got some difficulties to do the << and the >> operators, actually they
+were almost the same, when i finished the first one I've easily made the second one.
+The difficulty that i met was that I wasn't changing the value of the m_values/ m_passengers
+in the correct way. I was not changing the value of the one that needed to be set to 0, 
+that didn't allow me to get the correct output.
+ 

@@ -1,0 +1,16 @@
+/*
+    I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+    Name   :Pawan Deep
+    ID     :111144218
+    Email  :pdeep1@myseneca.ca
+    Date   :02/12/2022
+*/
+This workshop 4 the main topic was the constructors and the destructors, we learned about default constructors that in a certain way 
+initializes the class's variables to safe empty state. On the other side the destructor deallocates the allocated variables, the name of 
+the destructor is ~ with the name of the class. The destructor is called automatically, so there is no need to call it in the main 
+function.
+In this workshop we also used the this keyword, that represents the current object's address and in the workshop we used *this to return
+the object itself and not its address. The current address is the location of the memory where the member function is operating.
+In this workshop I found difficulties in the DIY part because the output expected initially wasn't matching, I had to try multiple times to
+print the exact same format that was required in the display function. The rest I would say wasn't that challenging because those were 
+topics that we studied in the previous workshops.
