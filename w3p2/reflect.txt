@@ -1,0 +1,9 @@
+This workshop was mainly about the classes that by deafault are private, I declared some member variables, and some member functions,
+the variables are private, on the other side the functions were public, in this workshop I learned how to deal with classes and private
+members. One of the function was a global function, I would say that in the first moment I got some difficulties in how can I deal with
+global function but after understanding the main function I got to know that I have already the 2 train as a parameter and with the
+two new functions reated in the workshop part 2 it is pretty simple to update the number of people in the 2 trains.
+I would say that the main function helped me a lot to understand all the functions, because I knew what were the parameters and what 
+exactly the text requires from me. Only with the workshop text maybe it would have been a little bit more complex.
+Then, I set position to 2 for the speed because if I wouldn't do that whenever the number had no decimal number it became an
+integer number and it didn't show the kms decimal numbers so for example 170,00 was displayed 170 with setprecision(2) 170,00.

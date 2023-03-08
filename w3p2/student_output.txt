@@ -1,0 +1,74 @@
+Script started on Wed 02 Feb 2022 03:38:46 PM EST
+==149764== Memcheck, a memory error detector
+==149764== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==149764== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==149764== Command: ws
+==149764== 
+----------------------------------------
+1. Testing changeSpeed.
+----------------------------------------
+NAME OF THE TRAIN : Bullet Train
+NUMBER OF PEOPLE  : 100
+SPEED             : 260.95 km/h
+NAME OF THE TRAIN : VIA Rail Abitibi
+NUMBER OF PEOPLE  : 250
+SPEED             : 85.95 km/h
+NAME OF THE TRAIN : Bullet Train
+NUMBER OF PEOPLE  : 100
+SPEED             : 320.00 km/h
+NAME OF THE TRAIN : VIA Rail Abitibi
+NUMBER OF PEOPLE  : 250
+SPEED             : 0.00 km/h
+----------------------------------------
+
+----------------------------------------
+2. Testing loadPeople.
+----------------------------------------
+NAME OF THE TRAIN : Bullet Train
+NUMBER OF PEOPLE  : 201
+SPEED             : 320.00 km/h
+NAME OF THE TRAIN : VIA Rail Abitibi
+NUMBER OF PEOPLE  : 195
+SPEED             : 0.00 km/h
+NAME OF THE TRAIN : Bullet Train
+NUMBER OF PEOPLE  : 1000
+SPEED             : 320.00 km/h
+NAME OF THE TRAIN : VIA Rail Abitibi
+NUMBER OF PEOPLE  : 0
+SPEED             : 0.00 km/h
+----------------------------------------
+
+----------------------------------------
+3. Testing transfer.
+----------------------------------------
+NAME OF THE TRAIN : Bullet Train
+NUMBER OF PEOPLE  : 1000
+SPEED             : 320.00 km/h
+NAME OF THE TRAIN : VIA Rail Abitibi
+NUMBER OF PEOPLE  : 0
+SPEED             : 0.00 km/h
+NAME OF THE TRAIN : VIA Rail Abitibi
+NUMBER OF PEOPLE  : 1000
+SPEED             : 0.00 km/h
+NAME OF THE TRAIN : Bullet Train
+NUMBER OF PEOPLE  : 55
+SPEED             : 245.95 km/h
+----------------------------------------
+
+----------------------------------------
+4. Testing transfer (safe empty states).
+----------------------------------------
+-1
+-1
+----------------------------------------
+
+==149764== 
+==149764== HEAP SUMMARY:
+==149764==     in use at exit: 0 bytes in 0 blocks
+==149764==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==149764== 
+==149764== All heap blocks were freed -- no leaks are possible
+==149764== 
+==149764== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Wed 02 Feb 2022 03:38:47 PM EST

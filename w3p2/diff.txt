@@ -1,0 +1,14 @@
+In line number 51 of your output:
+The output should be:
+NUMBER OF PEOPLE  : 1000
+                    ^
+But your output is: 
+NUMBER OF PEOPLE  : 955
+                    ^
+
+Unmatched character details:
+The character in column 21 is supposed to be:
+  [1] ASCII code(49)
+but you printed
+  [9] ASCII code(57)
+

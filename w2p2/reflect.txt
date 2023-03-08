@@ -1,0 +1,17 @@
+/*
+    I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+    Name   :Pawan Deep
+    ID     :111144218
+    Email  :pdeep1@myseneca.ca
+    Date   :01/31/2022
+*/
+
+the second workshop was quite challenging, we had a very long char to work with, in the starting I was saving all the data in a struct,
+but that would have took too much time to processing, so I decided to create a normal char variable and compared the char with the user 
+input, then the matches were saved in the struct, after saving them in the struct we needed to sort them by their id, then printed them.
+The data leak part was quite challenging for me because I didn't know exactly what was wrong in the program, then while checking my code
+again I was looking properly for every new if I have its delete, then an other thing was understanding the difference between delete[]
+and delete, that wasn't that difficult in the end.
+In the end the coding part itself wasn't as difficult as the memory leak one because it was the first time I was facing this topic.
+Now I suppose whenever I will face the data leak issue I will be able to deal with it much earlier. It was quite difficut to identify
+because like other errors this is not displayed on the errors of visual studio while debugging

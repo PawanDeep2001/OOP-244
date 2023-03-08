@@ -1,0 +1,40 @@
+/* Citation and Sources...
+Final Project reflection
+Reflection
+    Name   :Pawan Deep
+    ID     :111144218
+    Email  :pdeep1@myseneca.ca
+    Date   :04/08/2022
+Revision History
+-----------------------------------------------------------
+Date      Reason
+2020/?/?  Preliminary release
+2020/?/?  Debugged DMA
+-----------------------------------------------------------
+I have done all the coding by myself and only copied the code 
+that my professor provided to complete my workshops and assignments.
+-----------------------------------------------------------
+*/
+This project milestone had the same topic as the weekly workshop, which made the milestones much easier. In the first milestone we created
+some basic functions that we might use in every other module, we implemented these functions in the utils module, a few of them were
+provided by the professor, and others were recommended to us in order to make the other milestones easier. It was just a class with 
+constructors, a rule of three, some operators, destructors, and helper extraction/ insertion operators, with a few modifiers.
+In milestone 2 we created a menu that dynamically holds the menu options, and it will return a certain text according to the menu option
+chosen by the user, we used in this milestone the derived classes the third milestone we created some derived classes, and a module was
+essentially given, all the functions were pure virtual. Milestone 4 had some input that was read from the file, I would say this was a 
+bit more challenging than the others, it had certain formats that we needed to follow, for example, the '\t' between every variable value,
+even when we read the file we needed to ignore the '\t'. even printing in the file was a bit tricky because of the formatting that was
+needed in those.
+The fifth milestone was very quick as individuals, the first part was I would say the most difficult of the 6 parts, first of all, we
+needed to read the file according to the file entered from the user and in case the file didn't exist we needed to create one, in case
+the file existed we had the option by clicking 1 to list all the Products perishable or non-Perishable. In the second part, we had to add 
+a new item in case the database already had 100 products we needed to prompt that the database was full. On the other case if it isn't 
+empty we needed to create a new Item or a new Perishable, and call accordingly their respective functions. The third option was to remove
+an item, so if the description was included in the product description those products were displayed, and then we had to enter the SKU,
+and then we removed that product and if the deleted element wasn't the last one, we needed to decrease the position by one. If the user
+chooses the fourth option it should update a user in the same way as the delete one, just in this case we don't need to delete but 
+update that product's quantity in hand, to reduce it or to increase it. The fifth option is to sort all the products according to the 
+quantityneeded - quantity in hand. the sixth option is to write into a shipping order file some Products whose quantity is full, so the
+quantity in hand is equal to the quantity needed. and then we had to remove them from the other file.
+The seventh number, was the first one to be executed, so if no file was opened we had to open a file, in case the file didn't exist I 
+needed to create a new file called to the filename entered.

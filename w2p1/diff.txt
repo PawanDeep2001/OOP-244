@@ -1,0 +1,14 @@
+In line number 8 of your output:
+The output should be:
+4: Alfa Romeo Giulia,OVQXIQ
+^
+But your output is: 
+==23836== Mismatched free() / delete / delete []
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [4] ASCII code(52)
+but you printed
+  [=] ASCII code(61)
+
