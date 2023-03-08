@@ -1,0 +1,14 @@
+In line number 45 of your output:
+The output should be:
+44444 | Blanket                             |    2 |   22 |   22.22 |
+                                              ^
+But your output is: 
+44444 | Blanket                             | 2 | 22 | 22.22 |
+                                              ^
+
+Unmatched character details:
+The character in column 47 is supposed to be:
+  [Space] ASCII code(32)
+but you printed
+  [2] ASCII code(50)
+

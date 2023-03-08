@@ -1,0 +1,14 @@
+In line number 127 of your output:
+The output should be:
+----------------------------------
+^
+But your output is: 
+Handling Instructions: Keep in a dry and cool place
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [-] ASCII code(45)
+but you printed
+  [H] ASCII code(72)
+
