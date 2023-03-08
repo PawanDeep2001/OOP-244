@@ -1,0 +1,14 @@
+In line number 101 of your output:
+The output should be:
+12345	Baby Formula	145	200	33.99		221212
+                                 ^
+But your output is: 
+12345	Baby Formula	145	200	33.99	221212
+                                 ^
+
+Unmatched character details:
+The character in column 34 is supposed to be:
+  [Tab (\t)] ASCII code(9)
+but you printed
+  [2] ASCII code(50)
+
